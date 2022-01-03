@@ -10,6 +10,7 @@
 import Validator from "@/components/Validator.vue"
 import Header from "@/components/Header.vue"
 
+
 export default {
   name: 'Home',
   components: {Validator, Header},
@@ -26,7 +27,7 @@ export default {
 <style scoped>
 .validator-section {
 
-  padding-top: 2em;
+  padding-top: 1em;
 }
 
 .validator-headline {

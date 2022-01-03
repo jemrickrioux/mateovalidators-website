@@ -2,6 +2,7 @@
     <div v-if="node.status != 'inactive'" class="parent">
         <div class="validator-container">
             <div class="row-in">
+                
                 <div class="node-name">{{ node.name }}</div>
                     <a class="node-link" v-if="node.link != ''" :href="node.link" target="__blank__">
                         <ExternalLink />
