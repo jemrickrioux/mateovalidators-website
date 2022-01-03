@@ -1,6 +1,7 @@
 <template>
     <Header/>
-    <div>
+    <div class="validator-section">
+      <h3 class="validator-headline">We validate on these networks:</h3>
       <Validator v-for="node in nodes" :key="node.address" :node="node" />
     </div>
 </template>
@@ -23,7 +24,15 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.validator-section {
 
+  padding-top: 2em;
+}
+
+.validator-headline {
+  font-size: 2em;
+  text-align: center;
+}
 
 
 </style>

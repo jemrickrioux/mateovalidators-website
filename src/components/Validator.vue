@@ -4,7 +4,7 @@
             <div>{{ node.name }}</div>
             <div :class="node.status">{{ node.status }}</div>
         </div>
-        <a class="link" v-if="node.link != ''"  v:href="node.link" target="_blank"> View on Ping.pub </a>
+        <a class="link" v-if="node.link != ''"  :href="node.link" target="__blank__"> View on Ping.pub </a>
     </div>
 </template>
 
@@ -43,6 +43,9 @@ h3 { font-size: 2em; }
 .parent {
     padding-top: 0.5em;
 }
+
+a { color: white; text-decoration: none; }
+
 
 a:hover { color: rgb(61, 212, 137); text-decoration: underline; }
 
