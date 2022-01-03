@@ -1,5 +1,5 @@
 <template>
-    <div class="parent">
+    <div v-if="node.status != 'inactive'" class="parent">
         <div class="validator-container">
             <div class="row-in">
                 <div class="node-name">{{ node.name }}</div>

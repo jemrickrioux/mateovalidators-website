@@ -27,9 +27,10 @@ const nodes = [
   {
     name: "Osmosis",
     status: 'unbounded',
-    link: "",
-    address:"",
+    link: "https://www.mintscan.io/osmosis/validators/osmovaloper12l0vwef7w0xmkgktyqdzgd05jyq0lcuuqy2m8v",
+    address:"osmovaloper12l0vwef7w0xmkgktyqdzgd05jyq0lcuuqy2m8v",
   },
+  { name: "Sentinel", status: 'inactive', link:"", address:""},
   { name: "Evmos", status: 'inactive', link: "", address:"", },
 
 
