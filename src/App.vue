@@ -30,6 +30,13 @@ const nodes = [
     link: "https://www.mintscan.io/osmosis/validators/osmovaloper12l0vwef7w0xmkgktyqdzgd05jyq0lcuuqy2m8v",
     address:"osmovaloper12l0vwef7w0xmkgktyqdzgd05jyq0lcuuqy2m8v",
   },
+  { 
+    name: "Desmos",
+    status: 'unbounded', 
+    link:"https://explorer.desmos.network/validators/desmosvaloper1gkh3fln5jpyvdetezxf494grkduclq06za2tjc",
+    address:"desmosvaloper1gkh3fln5jpyvdetezxf494grkduclq06za2tjc",
+  },
+
   { name: "Sentinel", status: 'inactive', link:"", address:""},
   { name: "Evmos", status: 'inactive', link: "", address:"", },
 
