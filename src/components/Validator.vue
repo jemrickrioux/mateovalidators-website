@@ -57,9 +57,7 @@ h3 { font-size: 2em; }
 }
 
 .node-name {
-    font-size: 1.5em;
-    font-weight: bold;
-    margin-right: 1em;
+    margin-right: 0.5em;
 }
 
 a { color: white; text-decoration: none; }

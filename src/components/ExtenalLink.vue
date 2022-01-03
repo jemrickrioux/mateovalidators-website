@@ -20,6 +20,12 @@ export default {
 .svg-icon {
   /* Scoped CSS here */
   display: flex;
-  
+
+
+}
+
+.svg-icon:hover {
+  fill: #2edf69;
+  text-decoration: underline;
 }
 </style>
