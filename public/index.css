@@ -2,12 +2,14 @@
 
 
 body {
+  /* 
   background-color: black;
+  color: white;
+  */
   font-family: "Exo 2", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 1.5em;
   margin-right: 1.5em;
-  color: white;
 }

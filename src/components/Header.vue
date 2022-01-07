@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <div class="text">
-      <h1>Mateo Validators</h1>
+      <img class="logo" src="../assets/logo.png" alt="Stake House logo">
       <h2>We run nodes.</h2>
     </div>
   </div>
@@ -22,12 +22,16 @@ export default {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: white;
+  color: black;
   align-items: stretch;
 }
 .text {
-  color: white;
+  color: black;
   font-size: 2em;
   text-align: center;
+}
+
+.logo {
+  width: 75vw;
 }
 </style>

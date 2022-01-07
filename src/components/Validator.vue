@@ -51,7 +51,7 @@ h3 { font-size: 2em; }
     display: flex; 
     justify-content: space-between; 
     flex-direction: row; 
-    color: white; 
+    color: black; 
 }
 .parent {
     padding-top: 0.5em;
@@ -61,7 +61,7 @@ h3 { font-size: 2em; }
     margin-right: 0.5em;
 }
 
-a { color: white; text-decoration: none; }
+a { color: black; text-decoration: none; }
 
 
 a:hover { color: rgb(61, 212, 137); text-decoration: underline; }
